@@ -25,15 +25,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
 	main.cpp \
-	GameModule/src/Game.cpp \
-	ViewModule/src/View.cpp \
-	ConnectorModule/src/Connector.cpp \
+	GameModule/Game.cpp \
+	ViewModule/View.cpp \
+	ViewModule/Field.cpp \
+	ConnectorModule/Connector.cpp \
 
 HEADERS += \
-	GameModule/IGame.h \
-	GameModule/src/Game.h \
+	GameModule/Game.h \
 	GameModule/Types.h \
-	ViewModule/IView.h \
-	ViewModule/src/View.h \
-	ConnectorModule/IConnector.h \
-	ConnectorModule/src/Connector.h
+	ViewModule/View.h \
+	ViewModule/Field.h \
+	ConnectorModule/Connector.h
